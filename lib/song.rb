@@ -3,9 +3,9 @@ require 'active_support/inflector'
 
 class Song
 
-
+#Grabs table name, downcases, and pluralizes 
   def self.table_name
-    self.to_s.downcase.pluralize #Grabs table name, downcases, and pluralizes 
+    self.to_s.downcase.pluralize 
   end
 
   def self.column_names
