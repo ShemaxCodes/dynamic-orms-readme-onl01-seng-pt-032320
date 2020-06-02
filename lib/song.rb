@@ -21,6 +21,7 @@ class Song
     end
     column_names.compact
   end
+  
 #Set Column names as attr_accessor for use across any class 
   self.column_names.each do |col_name|
     attr_accessor col_name.to_sym
