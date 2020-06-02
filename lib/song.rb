@@ -5,7 +5,7 @@ class Song
 
 
   def self.table_name
-    self.to_s.downcase.pluralize
+    self.to_s.downcase.pluralize #Grabs table name, downcases, and pluralizes 
   end
 
   def self.column_names
